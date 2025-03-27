@@ -76,6 +76,13 @@ Use the modern local Expo CLI to start the project.
 
 You can start developing by editing the files inside the project (e.g., App.js or files in the app directory if using file-based routing).
 
+## Running Test
+
+For Running test use 
+```bash
+npm test
+```
+
 ## Learn More
 
 To learn more about developing your project with Expo, check out these resources:
@@ -121,12 +128,7 @@ If you make changes and want to push them back to GitHub:
    ```
    Replace `main` with your branch name if different.
 
-## Running Test
 
-For Running test use 
-```bash
-npm test
-```
 
 ## Join the Community
 
