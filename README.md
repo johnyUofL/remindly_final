@@ -29,7 +29,6 @@ Since remindly is an existing Expo project, you'll clone it from GitHub and set 
    git clone https://github.com/johnyUofL/remindly_final.git
    ```
 
-   ```
 4. Navigate into the project folder:
    ```bash
    cd remindly
