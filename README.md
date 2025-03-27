@@ -66,15 +66,16 @@ Use the modern local Expo CLI to start the project.
    ```
    This launches the Metro bundler and displays a QR code in the terminal or browser.
 
-2. Test the app using one of these options:
-   - **On a Physical Device**: Open the Expo Go app on your phone and scan the QR code.
-   - **On an Emulator/Simulator**:
-     - Android: Install Android Studio, set up an emulator, then press `a` in the terminal. See [Android emulator setup](https://docs.expo.dev/workflow/android-studio-emulator/).
-     - iOS: Install Xcode (macOS only), set up a simulator, then press `i` in the terminal. See [iOS simulator setup](https://docs.expo.dev/workflow/ios-simulator/).
-   - **In a Web Browser**: Press `w` to run the app in your browser (if the project supports web).
-   - **Development Build**: Build a custom version for more features. Learn more about [development builds](https://docs.expo.dev/develop/development-builds/introduction/).
+## 2. Test the App
+You can test the app using one of these options, the app works just for Android devices:
 
-You can start developing by editing the files inside the project (e.g., App.js or files in the app directory if using file-based routing).
+- **On a Physical Device**: Open the Expo Go app on your phone and scan the QR code below.  
+  ![QR Code](https://raw.githubusercontent.com/johnyUofL/remindly_final/refs/heads/main/qr-code.jpeg)
+- **On an Emulator/Simulator**:
+  - Android: Install Android Studio, set up an emulator, then press `a` in the terminal. See [Android emulator setup](https://docs.expo.dev/workflow/android-studio-emulator/).
+- **Development Build**: Build a custom version for more features. Learn more about [development builds](https://docs.expo.dev/develop/development-builds/introduction/).
+
+You can start developing by editing the files inside the project (e.g., `App.js` or files in the `app` directory if using file-based routing).
 
 ## Running Test
 
