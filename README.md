@@ -133,5 +133,10 @@ Join our community of developers creating universal apps:
 
 All the software used here is open source and can be used freely. The components used are included in package.json
 
+## Running Test
+
+For Running test use 
+```bash
+npm test
 ```
 
