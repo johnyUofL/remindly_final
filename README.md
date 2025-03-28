@@ -31,7 +31,7 @@ Since remindly is an existing Expo project, you'll clone it from GitHub and set 
 
 4. Navigate into the project folder:
    ```bash
-   cd remindly
+   cd remindly_final
    ```
 
 Important: Since this project is already an Expo app, do not run npx create-expo-app as it will create a new project and overwrite the existing structure.
@@ -129,8 +129,6 @@ If you make changes and want to push them back to GitHub:
    ```
    Replace `main` with your branch name if different.
 
-
-
 ## Join the Community
 
 Join our community of developers creating universal apps:
@@ -140,7 +138,73 @@ Join our community of developers creating universal apps:
 
 ## License
 
-All the software used here is open source and can be used freely. The components used are included in package.json
+All the software used here is open source and can be used freely. The components used are included in package.json.
 
+## Dependencies
+
+Here’s a summary of the dependencies used in Remindly:
+
+| **Category**            | **Dependency**                            | **Version**    | **Functionality**                                                                 |
+|--------------------------|-------------------------------------------|----------------|----------------------------------------------------------------------------------|
+| **UI and Navigation**   | `@expo/vector-icons`                     | `^14.0.2`      | Customizable icons for React Native apps.                                        |
+|                          | `@react-navigation/bottom-tabs`          | `^7.3.1`       | Bottom tab navigation for React Native.                                          |
+|                          | `@react-navigation/native`               | `^7.0.17`      | Core navigation library for stack, tab, and drawer navigation.                   |
+|                          | `@react-navigation/stack`                | `^7.1.0`       | Stack-based navigation (push/pop screens).                                       |
+|                          | `expo-blur`                              | `~14.0.1`      | Blur effects for UI elements in Expo apps.                                       |
+|                          | `expo-linear-gradient`                   | `~14.0.1`      | Linear gradient backgrounds/effects.                                             |
+|                          | `react-native-calendars`                 | `^1.1310.0`    | Customizable calendar component.                                                 |
+|                          | `react-native-gesture-handler`           | `~2.20.2`      | Gesture-based interactions (swipe, pinch).                                       |
+|                          | `react-native-modal-datetime-picker`     | `^18.0.0`      | Cross-platform modal date/time picker.                                           |
+|                          | `react-native-paper`                     | `^5.13.1`      | Material Design UI components.                                                   |
+|                          | `react-native-reanimated`                | `~3.16.1`      | Smooth animations and transitions.                                               |
+|                          | `react-native-safe-area-context`         | `^4.14.1`      | Ensures UI respects device safe areas (notches, status bars).                    |
+|                          | `react-native-screens`                   | `~4.1.0`       | Optimizes navigation with native screen components.                              |
+|                          | `react-native-svg`                       | `^15.11.2`     | Renders SVG images and shapes.                                                   |
+|                          | `react-native-vector-icons`              | `^10.2.0`      | Customizable icons for React Native.                                             |
+| **Animations and Media** | `@lottiefiles/dotlottie-react`           | `^0.6.5`       | Lottie animations for React (web-focused).                                       |
+|                          | `lottie-react-native`                    | `^7.1.0`       | Lottie animations for React Native.                                              |
+|                          | `expo-av`                                | `~15.0.1`      | Audio and video playback in Expo apps.                                           |
+|                          | `expo-haptics`                           | `~14.0.0`      | Haptic feedback (vibration) for Expo apps.                                       |
+| **Data Storage**        | `@nozbe/watermelondb`                    | `^0.27.1`      | High-performance, offline-first database.                                        |
+|                          | `@nozbe/with-observables`                | `^1.6.0`       | Observable bindings for WatermelonDB.                                            |
+|                          | `@react-native-async-storage/async-storage` | `^2.1.0`     | Persistent key-value storage.                                                    |
+|                          | `expo-secure-store`                      | `~14.0.1`      | Secure, encrypted storage for sensitive data.                                    |
+|                          | `expo-sqlite`                            | `~15.1.2`      | SQLite database integration for Expo apps.                                       |
+| **Networking/Utilities**| `axios`                                  | `^1.7.9`       | Promise-based HTTP client for API requests.                                      |
+|                          | `@react-native-community/netinfo`        | `11.4.1`       | Monitors network connectivity status.                                            |
+|                          | `jsonwebtoken`                           | `^9.0.2`       | JSON Web Tokens (JWT) for authentication.                                        |
+|                          | `uuid`                                   | `^11.1.0`      | Generates unique identifiers (UUIDs).                                            |
+|                          | `react-native-get-random-values`         | `^1.11.0`      | Polyfill for cryptographically secure random values.                             |
+| **Date and Time**       | `@react-native-community/datetimepicker` | `^8.2.0`       | Native date and time picker.                                                     |
+|                          | `date-fns`                               | `^4.1.0`       | Lightweight date manipulation and formatting.                                    |
+| **Expo-Specific**       | `expo`                                   | `~52.0.38`     | Core Expo SDK for React Native apps.                                             |
+|                          | `expo-constants`                         | `~17.0.3`      | Exposes app configuration constants.                                             |
+|                          | `expo-font`                              | `~13.0.1`      | Loads custom fonts in Expo apps.                                                 |
+|                          | `expo-linking`                           | `~7.0.3`       | Handles deep linking and universal links.                                        |
+|                          | `expo-router`                            | `4.0.11`       | File-based routing for Expo apps.                                                |
+|                          | `expo-splash-screen`                     | `~0.29.18`     | Manages app splash screen during loading.                                        |
+|                          | `expo-status-bar`                        | `~2.0.0`       | Controls status bar appearance.                                                  |
+|                          | `expo-symbols`                           | `~0.2.0`       | Access to system icons in Expo apps.                                             |
+|                          | `expo-system-ui`                         | `~4.0.6`       | Customizes system UI elements (e.g., background).                                |
+|                          | `expo-updates`                           | `~0.27.4`      | Over-the-air updates for Expo apps.                                              |
+|                          | `expo-web-browser`                       | `~14.0.2`      | Opens web pages in an in-app browser.                                            |
+| **Web/Cross-Platform**  | `react-native-web`                       | `~0.19.13`     | Runs React Native components on the web.                                         |
+|                          | `react-native-webview`                   | `13.12.5`      | Renders web content in a native WebView.                                         |
+| **Core Frameworks**     | `react`                                  | `18.3.1`       | Core React library for UI.                                                       |
+|                          | `react-dom`                              | `18.3.1`       | React rendering for the DOM (web).                                               |
+|                          | `react-native`                           | `0.76.5`       | Core framework for native mobile apps with React.                                |
+| **Configuration**       | `dotenv`                                 | `^16.4.7`      | Loads environment variables from `.env`.                                         |
+| **Dev: Build**          | `@babel/core`                            | `^7.25.2`      | Core Babel compiler for JS/TS transpilation.                                     |
+|                          | `@expo/config-plugins`                   | `^9.0.17`      | Customizes Expo configuration.                                                   |
+| **Dev: Testing**        | `@testing-library/jest-native`           | `^5.4.3`       | Extends Jest for React Native testing.                                           |
+|                          | `@testing-library/react-native`          | `^13.2.0`      | Testing utilities for React Native.                                              |
+|                          | `jest`                                   | `^29.2.1`      | JavaScript testing framework.                                                    |
+|                          | `jest-expo`                              | `~52.0.2`      | Jest preset for Expo projects.                                                   |
+|                          | `react-test-renderer`                    | `18.3.1`       | Renders React components for testing.                                            |
+| **Dev: Type Checking**  | `typescript`                             | `^5.3.3`       | Static typing for JavaScript.                                                    |
+|                          | `@types/jest`                            | `^29.5.12`     | Type definitions for Jest.                                                       |
+|                          | `@types/react`                           | `~18.3.12`     | Type definitions for React.                                                      |
+|                          | `@types/react-native`                    | `^0.72.8`      | Type definitions for React Native.                                               |
+|                          | `@types/react-test-renderer`             | `^18.3.0`      | Type definitions for React Test Renderer.                                        |
 
 
